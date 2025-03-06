@@ -16,8 +16,8 @@ import com.scripted.Enablevoice.VoiceEnabledReport;
 import com.scripted.Extent.ExtentUtils;
 import com.scripted.PDF.CucumberPDF;
 import com.scripted.ado.ADOTestManagement;
-import com.scripted.chatbotWeb.ChatBotUtils;
-import com.scripted.chatbotWeb.ReportGenaration;
+//import com.scripted.chatbotWeb.ChatBotUtils;
+//import com.scripted.chatbotWeb.ReportGenaration;
 import com.scripted.dataload.PropertyDriver;
 import com.scripted.generic.FileUtils;
 import com.scripted.integration.JiraUtils;
@@ -77,13 +77,13 @@ public class SkriptmateConfigurations {
 					e.printStackTrace();
 				}
 			}
-			if (configMap.get("Skriptmate.Chatbot.report").equalsIgnoreCase("true")) {
-				try {
-					 ChatBotUtils.reportPathCreate();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
+//			if (configMap.get("Skriptmate.Chatbot.report").equalsIgnoreCase("true")) {
+//				try {
+//					 ChatBotUtils.reportPathCreate();
+//				} catch (Exception e) {
+//					e.printStackTrace();
+//				}
+//			}
 			/*
 			 * if(configMap.get("Skriptmate.Jira.Xray.ExtractScenatio").equalsIgnoreCase(
 			 * "true")) { try { XrayAPIClient client = new XrayAPIClient(); PropertyDriver
@@ -175,9 +175,9 @@ public class SkriptmateConfigurations {
 			if (configMap.get("Skriptmate.Report.enableMail").equalsIgnoreCase("true")) {
 				Sendmail.send("src/main/resources/Reporting/Email/Email.properties", "target/cucumber.json");
 			}
-			if (configMap.get("Skriptmate.Chatbot.report").equalsIgnoreCase("true")) {
-				ReportGenaration.chatbotReportGen();
-			}
+//			if (configMap.get("Skriptmate.Chatbot.report").equalsIgnoreCase("true")) {
+//				ReportGenaration.chatbotReportGen();
+//			}
 			if (configMap.get("Skriptmate.TestRail.ExecutionStatusUpdate").equalsIgnoreCase("true")) {
 				TestRailUtils.uploadResultsFromCucumberJson("target/cucumber.json");
 			}
