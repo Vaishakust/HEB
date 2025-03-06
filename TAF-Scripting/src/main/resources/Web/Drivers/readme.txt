@@ -1,1 +1,0 @@
-Please keep all the driver files for browsers in this folder
