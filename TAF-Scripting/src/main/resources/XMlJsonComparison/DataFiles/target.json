@@ -1,0 +1,46 @@
+{
+  "hotelId": 3050,
+  "name": "The Grand Palace Hotel",
+  "type": "Luxury",
+  "location": {
+    "street": "100 King Street",
+    "city": "London",
+    "state": "England",
+    "postalCode": "EC1A 1AA",
+    "country": "United Kingdom"
+  },
+  "contact": {
+    "phone": "+44 20 7946 1234",
+    "email": "contact@grandpalacehotel.com",
+    "website": "www.grandpalacehotel.com"
+  },
+  "rooms": [
+    {
+      "roomId": 201,
+      "type": "Deluxe Suite",
+      "pricePerNight": 250,
+      "features": ["king-size bed", "ocean view", "jacuzzi", "mini bar"]
+    },
+    {
+      "roomId": 202,
+      "type": "Standard Room",
+      "pricePerNight": 120,
+      "features": ["queen-size bed", "city view", "free Wi-Fi"]
+    }
+  ],
+  "amenities": [
+    "Swimming pool",
+    "Gym",
+    "Restaurant",
+    "Spa",
+    "Conference room"
+  ],
+  "ratings": {
+    "cleanliness": 4.9,
+    "service": 4.5,
+    "value": 4.5,
+    "overalla": 4.8
+  },
+  "checkInTime": "2:00 PM",
+  "checkOutTime": "12:00 PM"
+}

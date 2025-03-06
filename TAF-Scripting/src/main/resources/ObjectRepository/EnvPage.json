@@ -1,0 +1,118 @@
+{
+  "envBtn": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/btnEnvironment",
+    "ios": "xpath://XCUIElementTypeStaticText[contains(@name,'Change Environment')]"
+  },
+  "qualitySelect": {
+    "android": "xpath://*[@text='Quality']",
+    "ios": "xpath://XCUIElementTypeStaticText[@value='Quality']"
+  },
+  "startBtn": {
+    "android": "xpath://*[@text='Start']",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='Start']"
+  },
+  "allowBtn": {
+    "android": "xpath://*[@resource-id='com.hilti.mobile.ontrack3.prerelease:id/scanPermissionActivateLink']",
+    "ios": "xpath://XCUIElementTypeButton[@name='Allow']"
+  },
+  "maybeLater": {
+    "android": "xpath://*[@text='Maybe later']",
+    "ios": "xpath://*[@label='Maybe later']"
+  },
+  "getStarted": {
+    "android": "",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='Get Started']"
+  },
+  "agreeAndClose": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/button_notice_footer_agree",
+    "ios": "xpath://XCUIElementTypeStaticText[contains(@name,'Agree')]"
+  },
+  "agreeAndCloseNotice": {
+    "android": "xpath://android.widget.Button[contains(@text,'Agree and close')]",
+    "ios": "xpath://XCUIElementTypeButton[contains(@label,'Agree & Close')]"
+  },
+  "closeButton": {
+    "android": "",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='×']"
+  },
+  "maintenanceCloseButton": {
+    "android": "xpath://android.widget.Button[@text='Close']",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='Close']"
+  },
+  "AllowLocation": {
+    "android": "",
+    "ios": "xpath://XCUIElementTypeButton[contains(@name,'Allow While')]"
+  },
+  "okButton": {
+    "android": "id:android:id/button1",
+    "ios": "xpath://XCUIElementTypeButton[@name='OK']"
+  },
+  "selectLangButton": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/selectedLanguageLabel",
+    "ios": "xpath://XCUIElementTypeButton[@name='languageSelectionButton']"
+  },
+  "currentLanguage": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/selectedLanguageLabel",
+    "ios": "xpath://XCUIElementTypeImage[@name='ChevronRightRedIcon']/following-sibling::XCUIElementTypeStaticText[1]"
+  },
+  "currentLanguageText": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/selectedLanguageLabel",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='Language']/following-sibling::XCUIElementTypeStaticText[1]"
+  },
+  "close": {
+    "android": "xpath:/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.widget.Button",
+    "ios": "xpath:"
+  },
+  "retryButton": {
+    "android": "xpath://android.widget.Button[@text='Retry']",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='OK']"
+  },
+  "notNowButton": {
+    "android": "_",
+    "ios": "xpath://XCUIElementTypeButton[@name='Not Now']"
+  },
+  "preLogin_AllowBtn": {
+    "android": "xpath://*[@resource-id='com.android.permissioncontroller:id/permission_allow_button']",
+    "ios": "xpath://XCUIElementTypeButton[@name='Allow']"
+  },
+  "conformButton": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/confirm_button",
+    "ios": "xpath:"
+  },
+  "emailLog_FileButton": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/primaryText",
+    "ios": "xpath://XCUIElementTypeStaticText[@name='emailATTitle']"
+  },
+  "emailLog_Battery": {
+    "android": "xpath://*[@text ='Allow']",
+    "ios": "xpath:"
+  },
+  "nearBy_BluetoothActivation": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/viewToolScanInstructionsTv",
+    "ios": "xpath://XCUIElementTypeStaticText[@label='Can’t see your tools? Stand closer to the tools and view bluetooth activation instructions']"
+  },
+  "nearBy_HelpOptionFirst": {
+    "android": "xpath://android.widget.TextView[@text='DD 150-U / DD 250-CA']",
+    "ios": "xpath://XCUIElementTypeStaticText[@label='DD 150-U / DD 250-CA']"
+  },
+  "nearBy_HelpOptionSecond": {
+    "android": "xpath://android.widget.TextView[@text='DX 5 / DX 6']",
+    "ios": "xpath://XCUIElementTypeStaticText[@label='DX 5 / DX 6']"
+  },
+  "nearBy_HelpOptionThird": {
+    "android": "xpath://android.widget.TextView[@text='DX 9']",
+    "ios": "xpath://XCUIElementTypeStaticText[@label='DX 9']"
+  },
+  "nearBy_Illustrated_Instructions": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/textInstructionsTitle",
+    "ios": "xpath://XCUIElementTypeStaticText[contains(@name,'Activate your')]"
+  },
+  "nearBy_OkButton": {
+    "android": "id:com.hilti.mobile.ontrack3.prerelease:id/btnInstructionsAction",
+    "ios": "xpath://XCUIElementTypeButton[@label='OK']"
+  },
+  "allow_background": {
+    "android": "id:android:id/button1",
+    "ios": "xpath:"
+  }
+}

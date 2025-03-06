@@ -1,0 +1,82 @@
+{
+    "objectRepository": {"webObjectRepo": {"pages": [{
+        "pageName": "SauceDemo",
+        "webElements": [
+            {
+                "locators": {
+                    "css": "#user-name",
+                    "xpath": {
+                        "default": "//input[@id='user-name']",
+                        "Position": "(//input[@id='user-name'])[1]",
+                        "Parent": "//div[@class='login-box']//div[1]//child::input[1]",
+                        "parentwithindex": "(//div[@class='form_group'])[1]//child::input[1]",
+                        "fullXPath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+                        "ancestorwithindex": "(//form)[1]//child::input[1]",
+                        "attributes": "{autocapitalize=none, autocorrect=off, class=input_error form_input, data-test=username, id=user-name, name=user-name, placeholder=Username, type=text, value=}",
+                        "Precedance": "",
+                        "placeholder": "//input[@placeholder='Username'][1]",
+                        "parentoncss": " div[class='login-box'] div:nth-child(1) #user-name",
+                        "Ancestor": "//div[@class='login-box']//form/div//child::input[1]",
+                        "parentonAbsxpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]//child::input[1]"
+                    },
+                    "classname": "input_error form_input",
+                    "name": "user-name",
+                    "id": "user-name",
+                    "iframeElement": "false"
+                },
+                "elementName": "username"
+            },
+            {
+                "locators": {
+                    "css": "#password",
+                    "xpath": {
+                        "default": "//input[@id='password']",
+                        "Position": "(//input[@id='password'])[1]",
+                        "Parent": "//div[@class='login_wrapper-inner']//div[2]//child::input[1]",
+                        "parentwithindex": "(//div[@class='form_group'])[2]//child::input[1]",
+                        "fullXPath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+                        "ancestorwithindex": "(//form)[1]//child::input[1]",
+                        "attributes": "{autocapitalize=none, autocorrect=off, class=input_error form_input, data-test=password, id=password, name=password, placeholder=Password, type=password, value=}",
+                        "Precedance": "",
+                        "placeholder": "//input[@placeholder='Password'][1]",
+                        "parentoncss": " div[class='login_wrapper-inner'] div:nth-child(2) #password",
+                        "Ancestor": "//div[@class='login-box']//form/div//child::input[1]",
+                        "parentonAbsxpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]//child::input[1]"
+                    },
+                    "classname": "input_error form_input",
+                    "name": "password",
+                    "id": "password",
+                    "iframeElement": "false"
+                },
+                "elementName": "password"
+            },
+            {
+                "locators": {
+                    "css": "#login-button",
+                    "xpath": {
+                        "Follows": "//div[@class='error-message-container']/following-sibling::input",
+                        "Position": "(//input[@id='login-button'])[1]",
+                        "Parent": "//div[@class='login-box']//form//child::input[3]",
+                        "parentonAbsxpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]//child::input[3]",
+                        "default": "//input[@id='login-button']",
+                        "parentwithindex": "(//form)[1]//child::input[3]",
+                        "fullXPath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/input[1]",
+                        "ancestorwithindex": "(//div[@class='login-box'])[1]//child::input[3]",
+                        "attributes": "{class=submit-button btn_action, data-test=login-button, id=login-button, name=login-button, type=submit, value=Login}",
+                        "Precedance": "",
+                        "placeholder": "//input[@placeholder=''][0]",
+                        "parentoncss": " div[class='login-box'] form #login-button",
+                        "Ancestor": "//div[@class='login-box']/form//child::input[3]"
+                    },
+                    "classname": "submit-button btn_action",
+                    "name": "login-button",
+                    "id": "login-button",
+                    "iframeElement": "false"
+                },
+                "elementName": "loginbutton"
+            }
+        ]
+    }]}},
+    "pageUrl": "https://www.saucedemo.com/",
+    "projectName": "Default"
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./scripts/jquery.js"></script>
+    <script type="text/javascript" src="./scripts/highcharts.js"></script>
+    <script src="./scripts/Chart.js"></script>
+
+
+
+
+    <title>{testname} Data Validation Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/CQ_style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo_sec">
+                <img src="img/sklogo.png" class="logo-size" alt="logo-skrptmate" />
+            </div>
+            <div class="text_sec">
+                <div class="heading1">{testname} Data Validation Report</div>
+                <div class="heading2">
+                    <span>Executed By:</span><span>{ExecutedBy}</span>
+                </div>
+                <div class="heading2">
+                    <span>Execution Time:</span><span>{ExecutedOn}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row section_1">
+            <div class="col-md-6 col-lg-6" style="margin-bottom: 10px;">
+                <h5 class="label-alignment spacer_2">
+                    <label>Test Summary:- {testname}</label>
+                </h5>
+                <h5 class="label-alignment">
+                    <label>Total no of pages: <span>{Total pages}</span></label>
+                </h5>
+                <h5 class="label-alignment">
+                    <label>Total no of identical pages: <span style="color: #45B39D; font-weight: bold">{Total matches}</span></label>
+                </h5>
+                <h5 class="label-alignment">
+                    <label>Total no of pages with differences: <span style="color: #FB5252; font-weight: bold">{Total difference}</span></label>
+                </h5>
+                <button class="arrow-button" onclick="togglePopup()">
+                    Click here to view the differences
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+ 	        <div class="col-md-6 col-lg-6">
+                <div style="display: block;">
+                    <canvas id="myChart"></canvas>
+					{pieChartBody}
+                </div>
+            </div>   
+			
+        </div>
+        <div class="table_wrap">
+            <div class="container-scrollview">
+                <!-- Scrollable Div for PdfFile1 -->
+                <div class="scrollable-div" id="scrollable1">
+                    <h3>PdfFile1 Data</h3>
+                    <div class="scrollable-content">
+                        <p><pre>{pdf1}</pre></p>
+                    </div>
+                </div>
+                <!-- Scrollable Div for PdfFile2 -->
+                <div class="scrollable-div" id="scrollable2">
+                    <h3>PdfFile2 Data</h3>
+                    <div class="scrollable-content">
+                        <p><pre>{pdf2}</pre></p>
+                    </div>
+                </div>
+            </div>
+			<div class="popup-content" id="popup">
+			    <div class="popup-box">
+			        <button class="close-btn" onclick="closePopup()">X</button>
+			        <h2 id="popupTitle">{testname}</h2>
+			        <div class="popup-scrollable">
+			            <table>
+			                <thead>
+			                    <tr>
+			                        <th>PdfFile1 Differences</th>
+			                        <th>PdfFile2 Differences</th>
+			                    </tr>
+			                </thead>
+			                <tbody>
+			                    <tr>
+			                        <td><pre>{differencePdf1}</pre></td>
+			                        <td><pre>{differencePdf2}</pre></td>
+			                    </tr>
+			                </tbody>
+			            </table>
+			        </div>
+			    </div>
+			</div>
+        </div>
+    </div>
+
+    <script>
+        function togglePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'flex';
+        }
+
+        function closePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }
+    </script>
+
+   
+</body>
+
+</html>

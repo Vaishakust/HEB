@@ -1,0 +1,48 @@
+{
+  "restaurantId": 5001,
+  "name": "La Bella Italia",
+  "type": "Italian",
+  "location": {
+    "street": "15 Piazza della Repubblica",
+    "city": "Rome",
+    "state": "Lazio",
+    "postalCode": "00185",
+    "country": "Italy"
+  },
+  "contact": {
+    "phone": "+39 06 1234567",
+    "email": "info@labellaitalia.com",
+    "website": "www.labellaitalia.com"
+  },
+  "menu": [
+    {
+      "dishId": 101,
+      "name": "Spaghetti Carbonara",
+      "category": "Pasta",
+      "price": 12.50,
+      "ingredients": ["spaghetti", "egg", "cheese", "pancetta", "black pepper"]
+    },
+    {
+      "dishId": 102,
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 9.99,
+      "ingredients": ["tomato", "mozzarella", "basil", "olive oil"]
+    }
+  ],
+  "openingHours": {
+    "monday": "12:00 PM - 11:00 PM",
+    "tuesday": "12:00 PM - 11:00 PM",
+    "wednesday": "12:00 PM - 11:00 PM",
+    "thursday": "12:00 PM - 11:00 PM",
+    "friday": "12:00 PM - 12:00 AM",
+    "saturday": "12:00 PM - 12:00 AM",
+    "sunday": "Closed"
+  },
+  "ratings": {
+    "food": 4.8,
+    "service": 4.5,
+    "ambience": 4.7,
+    "overall": 4.6
+  }
+}

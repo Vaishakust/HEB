@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <product id="P001" status="available" category="electronics">
+        <name>Smartphone</name>
+        <brand>XYZ</brand>
+        <price>576.99</price>
+        <stock>50</stock>
+    </product>
+    <product id="P002" status="available" category="electronics">
+        <name>Computer</name>
+        <brand>ABC</brand>
+        <price>954.99</price>
+        <stock>0</stock>
+    </product>
+</inventory>

@@ -1,0 +1,22 @@
+{
+  "/public/v2/users/6930067" : {
+    "put" : {
+      "200" : {
+        "description" : "Successful response",
+        "content" : {
+          "application/json" : { }
+        }
+      }
+    }
+  },
+  "/public/v2/users/6913950" : {
+    "get" : {
+      "200" : {
+        "description" : "Successful response",
+        "content" : {
+          "application/json" : { }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<PetsloverInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>17239</id>
+    <name>vivek</name>
+    <email>vinee20220125120142.227@gmail.com</email>
+    <adderes>USA California</adderes>
+    <createdat>0001-01-01T00:00:00</createdat>
+</PetsloverInformation>
